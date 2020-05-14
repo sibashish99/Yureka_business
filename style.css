@@ -11,6 +11,9 @@
     height: 40px;
     padding-left: 30px;
 }
+.navbar-brand img:hover{
+    transform:scale(1.3) ;
+}
 .navbar-nav li{
     padding: 0 10px ;
 }
@@ -20,6 +23,7 @@
 }
 #nav-bar ul li a:hover{
     color: #007bff!important;
+    transform:scale(1.2) ;
 }
 .navbar{
     background: #fff;
@@ -34,9 +38,34 @@
 }
 #slider{
     width: 100%;
-    
 }
 .carousel-caption{
- 
     transform:translateY(-50%);
 }
+#about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color:#555;
+}
+#about .btn{
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+     
+}
+.about-content{
+    padding-top: 20px;
+}
+.skills-bar p{
+     margin-bottom: 6px;
+     font-weight: 600;
+}
+.progress-bar{
+    border-radius: 16px;
+}
+.progress{
+    border-radius: 16px !important;
+    margin-bottom: 20px ;
+}
+ 
+
