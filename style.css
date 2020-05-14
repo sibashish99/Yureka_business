@@ -18,3 +18,25 @@
    float: right;
    text-align: left;
 }
+#nav-bar ul li a:hover{
+    color: #007bff!important;
+}
+.navbar{
+    background: #fff;
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color:#555!important;
+    font-weight: 700;
+    font-size: 14px;
+}
+#slider{
+    width: 100%;
+    
+}
+.carousel-caption{
+ 
+    transform:translateY(-50%);
+}
